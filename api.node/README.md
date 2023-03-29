@@ -44,6 +44,6 @@ Exemplo de corpo da resposta:
 400 Bad Request: ocorre se a query de busca não for informada ou for inválida.
 
 ## Tecnologias utilizadas
-. Node.js v18.10.0
-. Express
-. Puppeteer
+### Node.js v18.10.0
+### Express
+### Puppeteer
