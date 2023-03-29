@@ -26,5 +26,5 @@ Na tela inicial do aplicativo, o usuário pode inserir um termo de pesquisa na c
 
 ## Tecnologias utilizadas
 
-. Flutter v2.10.0
-. Dart v2.16.0
+### Flutter v2.10.0
+### Dart v2.16.0
