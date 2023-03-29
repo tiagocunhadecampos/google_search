@@ -1,6 +1,6 @@
 # Google Search
 
-Este é um aplicativo de busca que utiliza a API do Google para realizar pesquisas e exibir os resultados em uma lista. O usuário pode clicar em um resultado para abrir a página em um WebView.
+Este é um aplicativo de busca que utiliza uma API para realizar pesquisas no Google e exibir os resultados em uma lista. O usuário pode clicar em um resultado para abrir a página em um WebView.
 
 ## Instalação
 
@@ -14,7 +14,7 @@ Para executar o aplicativo, você precisa ter o Flutter instalado em sua máquin
 
 ## Api
 
-Para instalação e rodar a api acessar a pasta API e seguir as intruções do README da API.
+Para instalação e rodar a api acessar a pasta api.node e seguir as intruções do README da API.
 
 ## Uso
 
