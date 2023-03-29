@@ -20,7 +20,7 @@ Para instalação e rodar a api acessar a pasta api.node e seguir as intruções
 
 Na tela inicial do aplicativo, o usuário pode inserir um termo de pesquisa na caixa de texto e pressionar o botão de pesquisa ou a tecla "enter" para realizar a pesquisa. Os resultados serão exibidos em uma lista, onde o usuário pode clicar em um item para abrir a página correspondente em um navegador ou WebView.
 
-```O aplicativo realizará uma pesquisa na API como primeira opção. Caso não seja possível acessá-la, a pesquisa será direcionada para a URL do Google como alternativa.```
+O aplicativo tentará realizar a pesquisa por meio da API como primeira opção. Caso não seja possível acessá-la, a pesquisa será direcionada para a URL do Google como alternativa. Em qualquer um dos casos, será exibida uma mensagem na parte inferior da tela (Snackbar), informando qual foi o método utilizado para a pesquisa.
 
 ```Na classe google_search\lib\data\services\search_service.dart, o aplicativo tentará automaticamente pegar o IP da rede. Caso não seja possível, será necessário adicionar manualmente o IP na variável baseUrl. É importante lembrar que, caso o aplicativo esteja sendo executado em um emulador, o IP da rede pode ser diferente do que é esperado.```
 
